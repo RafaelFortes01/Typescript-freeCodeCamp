@@ -45,6 +45,19 @@ let myUser: User = {
    isActive: false
 }
 
+type cardNumber = {
+   cardnumber: string
+
+}
+
+type cardDate = {
+   cardDate: string
+}
+
+type cardDetails = cardNumber & cardDate & {
+   cvv: number
+}
+
 myUser.email = 'rafael@gmail.com'
 // myUser._id = '321'
 
