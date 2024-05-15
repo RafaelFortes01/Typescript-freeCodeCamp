@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var rafael = { dbId: 22, email: 'rafael@123', userId: 123,
+var rafael = { dbId: 22, email: 'rafael@123', userId: 123, githubToken: 'github', role: 'admin',
     startTrail: function () {
         return 'trail started';
     },
